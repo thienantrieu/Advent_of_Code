@@ -1,4 +1,4 @@
-% Day  5
+% Day 5
 clearvars
 close all
 clc
@@ -39,14 +39,10 @@ for i = 1:length(U)
     if i < length(U)
         if U(i,1) >= U(i+1,1)
             sum_ranges = sum_ranges - range;
-        else
-            if U(i,2) >= U(i+1,2)
-                sum_ranges = sum_ranges - (U(i+1,2) - U(i+1,1) + 1);
-            else
-                if U(i,2) >= U(i+1,1)
-                    sum_ranges = sum_ranges - (U(i,2) - U(i+1,1) + 1);
-                end
-            end
+        elseif U(i,2) >= U(i+1,2)
+            sum_ranges = sum_ranges - (U(i+1,2) - U(i+1,1) + 1);
+        elseif U(i,2) >= U(i+1,1)
+            sum_ranges = sum_ranges - (U(i,2) - U(i+1,1) + 1);
         end
     end
 end
