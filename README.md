@@ -1,2 +1,2 @@
-# Advent_of_Code_2025
-Advent of Code 2025 done on Matlab
+# Advent_of_Code
+Advent of Code done on Matlab
