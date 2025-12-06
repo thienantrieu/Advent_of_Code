@@ -32,7 +32,7 @@ for i = 1:length(M)-1
 end
 
 fprintf('Answer for part 1: %d \n', sum1)
-fprintf('Answer for part 2: %d ', sum2)
+fprintf('Answer for part 2: %d \n', sum2)
 
 function[str_arr, stop_index] = optim_max(str_arr,str,stop_index,j)
 
@@ -45,5 +45,6 @@ for i = length(str)-j:-1:stop_index
     end
 end
 str_arr{end+1} = num2str(max);
+
 
 end
