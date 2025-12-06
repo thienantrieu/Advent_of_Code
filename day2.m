@@ -34,5 +34,5 @@ for i = 1:length(M)
     end
 end
 
-fprintf('%d \n',V1)
-fprintf('%d \n',V2)
+fprintf('Answer for part 1: %d \n',V1)
+fprintf('Answer for part 2: %d \n',V2)
