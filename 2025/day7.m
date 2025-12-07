@@ -29,6 +29,8 @@ for i = 1:length(M)-1
         end
         M(i+1) = m2;
     end
+    
+    %Visualization
     spy(A)
     drawnow
 end
@@ -53,4 +55,5 @@ for i = j:-1:1
         break
     end
 end
+
 end
