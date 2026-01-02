@@ -11,6 +11,7 @@ M = readlines('input_day11.txt');
 % FFT to DAC max_depth 15 35991.058494 seconds. ~9.99h ~10 h
 % FFT to DAC max_depth 16 71320.607029 seconds ~19.81h
 % FFT to DAC max_depth 17 194413.898240 seconds ~54h
+% Total 3.6583 days runtime
 
 root = cell(length(M)-1,1);
 leaf = cell(length(M)-1,1);
@@ -127,4 +128,5 @@ for i = 1:length(root)
         end
     end
 end
+
 end
