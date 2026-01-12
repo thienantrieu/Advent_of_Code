@@ -36,7 +36,7 @@ you_out = depth_first_search(root,leaf,'you','out',100)
 svr_fft = depth_first_search(root,leaf,'svr','fft',100)
 
 % FFT to DAC
-fft_dac = depth_first_search(root,leaf,'fft','dac',10)
+fft_dac = depth_first_search(root,leaf,'fft','dac',100)
 
 % DAC to out
 dac_out = depth_first_search(root,leaf,'dac','out',100)
@@ -50,7 +50,7 @@ svr_fft = breadth_first_search({'svr'},root,leaf, 'fft')
 
 % FFT to DAC
 % Have to use depth first search because of excessive memory use of breadth first search 
-fft_dac = depth_first_search(root,leaf,'fft','dac',10)
+fft_dac = depth_first_search(root,leaf,'fft','dac',100)
 
 % DAC to out
 dac_out = breadth_first_search({'dac'},root,leaf, 'out')
@@ -133,4 +133,5 @@ for k = 1:100
     end
 end
 end
+
 
