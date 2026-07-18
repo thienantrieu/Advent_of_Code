@@ -102,6 +102,14 @@ way to sharpen algorithmic problem-solving within a language I already know well
   the code show just how much the choice of algorithm mattered here — the
   DFS approach took up to ~54 hours on the hardest part of the puzzle, while
   BFS solved the same part in about 4 hours 17 minutes.
+
+## A note on AI use
+
+Advent of Code asks that puzzles be solved without AI assistance, since 
+they're designed as a human problem-solving exercise. In that spirit, all 
+puzzle solutions in this repository were written independently, without AI 
+help. This README, however, was drafted with AI assistance (Claude) to help 
+organize and phrase the content.
   
 ## License
  MIT
