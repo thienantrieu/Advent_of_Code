@@ -5,7 +5,6 @@ clc
 
 S = readlines('input_day5.txt');
 S(end) = [];
-length(S)
 jako = find(S=='');
 raja = S(1:jako-1);
 M = S(jako+1:end);
