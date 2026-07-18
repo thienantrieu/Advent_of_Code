@@ -102,6 +102,6 @@ way to sharpen algorithmic problem-solving within a language I already know well
   the code show just how much the choice of algorithm mattered here — the
   DFS approach took up to ~54 hours on the hardest part of the puzzle, while
   BFS solved the same part in about 4 hours 17 minutes.
-  ## License
-
-  MIT
+  
+## License
+ MIT
