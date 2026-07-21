@@ -100,8 +100,8 @@ way to sharpen algorithmic problem-solving within a language I already know well
 - **[Day 11](2025/day11.m)**: Learned and applied depth-first search (DFS)
   and breadth-first search (BFS) to solve the puzzle. Timing comparisons in
   the code show just how much the choice of algorithm mattered here — the
-  DFS approach took up to ~54 hours on the hardest part of the puzzle, while
-  BFS solved the same part in about 4 hours 17 minutes.
+  DFS approach took up to 6 minutes on one part of the puzzle, while
+  BFS solved the same part in about 2 minutes.
 
 ## A note on AI use
 
