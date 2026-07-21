@@ -101,7 +101,7 @@ way to sharpen algorithmic problem-solving within a language I already know well
   and breadth-first search (BFS) to solve the puzzle. Timing comparisons in
   the code show just how much the choice of algorithm mattered here — the
   DFS approach took up to 6 minutes on one part of the puzzle, while
-  BFS solved the same part in about 2 minutes.
+  BFS solved the same part in little over 2 minutes.
 
 ## A note on AI use
 
